@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thisu Sweet Cafe</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* Custom styles for hover effects */
+        .product-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: #d53f8c;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body class="bg-pink-50 text-gray-700">
+
+    <!-- Navbar -->
+    <nav class="bg-pink-200 p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-pink-700">Thisu Sweet Cafe</h1>
+            <div class="space-x-4 text-pink-800 font-medium">
+                <a href="index.html" class="hover:text-pink-500">Home</a>
+                <a href="about.html" class="hover:text-pink-500">About Us</a>
+                <a href="gallery.html" class="hover:text-pink-500">Gallery</a>
+                <a href="order.html" class="hover:text-pink-500">Order Now</a>
+                <a href="contact.html" class="hover:text-pink-500">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-bold text-pink-700 mb-4">Homemade Cakes & Sweets with Love</h2>
+        <p class="text-lg">Free Delivery around Nugegoda, Thalawathugoda, Pannipitiya, Maharagama</p>
+        <p class="text-pink-600 mt-2 font-medium">Call / WhatsApp: 0772372873</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container mx-auto py-8 px-4">
+        <h3 class="text-2xl font-semibold text-pink-700 mb-4 text-center">About Us</h3>
+        <p class="text-center">
+            Welcome to Thisu Sweet Cafe — where every bite feels like home! We are a passionate homemade cookery based in
+            Nugegoda, dedicated to creating delicious cakes, sweets, and short eats with love and care. Our mission is to
+            bring joy to every celebration and sweeten your everyday moments with freshly made treats.
+        </p>
+    </section>
+
+    <!-- Product Menu -->
+    <section class="container mx-auto py-8 px-4">
+        <h3 class="text-2xl font-semibold text-pink-700 mb-6 text-center">Our Sweet Menu</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Product Cards -->
+            <!-- Repeat this block for each product -->
+            <div class="bg-white shadow-lg rounded-lg p-4 product-card">
+                <img src="https://via.placeholder.com/300x200" class="rounded mb-2" alt="Jam Cheesecake">
+                <h4 class="font-bold">Jam-Topped Mini Cheesecakes</h4>
+                <p>Rs.400 per piece (Min 10 pcs)</p>
+                <a href="https://wa.me/94772372873?text=I'm%20interested%20in%20ordering%20Jam-Topped%20Mini%20Cheesecakes"
+                    class="mt-2 inline-block bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-700">Order Now</a>
+            </div>
+            <!-- End of Product Card -->
+            <!-- Add more product cards as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-200 text-center p-4 text-pink-700 mt-10">
+        <div class="flex justify-center space-x-4 mb-2">
+            <a href="https://facebook.com/yourpage" class="social-icon"><i class="fab fa-facebook text-2xl"></i></a>
+            <a href="https://instagram.com/yourpage" class="social-icon"><i class="fab fa-instagram text-2xl"></i></a>
+            <a href="https://wa.me/94772372873" class="social-icon"><i class="fab fa-whatsapp text-2xl"></i></a>
+        </div>
+        <p>&copy; 2025 Thisu Sweet Cafe | Homemade Goodness with a Sweet Touch</p>
+    </footer>
+
+</body>
+
+</html>
